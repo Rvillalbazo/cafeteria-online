@@ -1,4 +1,4 @@
-import Layout from "../Layout/Layout";
+import Layout from '../layout/Layout';
 import useCafeteria from '../hooks/useCafeteria';
 import Producto from "../components/Producto";
  
