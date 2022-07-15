@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "axios": "^0.27.2",
+    "axios-observable": "^1.5.0",
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.15.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "babel-plugin-react-html-attrs": "^3.0.5",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2"
-  }
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "plugins": [
+    "react-html-attrs"
+  ]
+  
 }
